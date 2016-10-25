@@ -1,0 +1,58 @@
+.login-box{
+  width: 100%;
+  height: 100%;
+  background: url(/images/xy_walkthroughs_bg1.png) no-repeat;
+  background-size: 100% 100%;
+  .login-header{
+    ul{
+      height: 0.44rem;
+      @include flexbox();
+      li{
+        @include flex();
+        @include flexbox();
+        @include justify-content(center);
+        @include align-items(center);
+      }
+    }
+
+  }
+  .login-content{
+    ul{
+      @include flexbox();
+      @include flex-direction(column);
+      @include justify-content(center);
+      @include align-items(center);
+      li{
+          @include flexbox();
+          @include justify-content(center);
+          @include align-items(center);
+          margin-top: 0.2rem;
+          input{
+            height: 0.3rem;
+              width: 3rem;
+            border-radius: 0.02rem;
+          }
+      }
+      li:nth-child(1){
+        p{
+          color: #ccc;
+        }
+      }
+      li:nth-child(2){
+        input{
+          border: 1px solid #ccc;
+        }
+      }
+      li:nth-child(3){
+        input{
+          border: 0;
+        }
+      }
+      li:nth-child(4){
+          width: 3rem;
+          @include flexbox();
+          @include justify-content(space-between);
+      }
+    }
+  }
+}

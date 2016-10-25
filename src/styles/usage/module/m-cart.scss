@@ -1,0 +1,46 @@
+%cart-container {
+    .cart-container {
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        width: 100%;
+        .search-header {
+            height: 0.44rem;
+            width: 100%;
+            background: red;
+            ul {
+                height: 100%;
+                @include flexbox();
+                color: #ffffff;
+                li {
+                    @include flex();
+                    @include flexbox();
+                    @include align-items(center);
+                    @include justify-content(center);
+                }
+                li:nth-child(1) {
+                    @include flex(8);
+                    @include flexbox();
+                    margin: 5px 15px;
+                    background: darkred;
+                    border-radius: 5px;
+                    i {
+                        width: 8vw;
+                        margin-left: 2vw;
+                    }
+                    input {
+                        width: 90vw;
+                        background: darkred;
+                        border: 0;
+                        color: #ffffff;
+                    }
+                }
+                li:nth-child(2) {
+                    i {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
