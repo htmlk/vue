@@ -1,9 +1,18 @@
 #搭建webpack+vue.js前端开发框架实战
 
 ##项目展示
+
+[本项目已经更新至vue2.0，点击查看](https://github.com/htmlk/vue2.0 "https://github.com/htmlk/vue2.0")
+
 ![](http://i.imgur.com/bHg7Pba.png)
 
 微信扫一扫查看，或者直接点击[http://www.htmlk.cn](http://www.htmlk.cn "www.htmlk.cn")
+
+vue文档链接：
+
+[vue2.0中文文档](https://vuefe.cn/ "https://vuefe.cn/")
+
+[vue1.0文档](https://cn.vuejs.org/ "https://cn.vuejs.org/")
 
 ###1、引导页：（可以左右滑动，点击登录可以跳转进入登录页，点击直接进入官网）
 ![引导](http://i.imgur.com/riq3hOq.png)
